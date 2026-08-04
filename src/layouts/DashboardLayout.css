@@ -1,0 +1,104 @@
+.dashboard {
+  display: grid;
+  grid-template-columns: 280px 1fr;
+  gap: var(--space-8);
+  padding: var(--space-10) var(--space-6) var(--space-16);
+  align-items: start;
+}
+
+.dashboard-sidebar {
+  position: sticky;
+  top: calc(var(--header-h) + var(--space-6));
+  padding: var(--space-6);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-6);
+}
+
+.dashboard-user {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+  padding-bottom: var(--space-5);
+  border-bottom: 1px solid var(--color-border-soft);
+}
+
+.dashboard-user__avatar {
+  width: 46px;
+  height: 46px;
+  border-radius: var(--radius-full);
+  background: var(--color-surface-raised);
+  border: 1px solid var(--color-border);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--font-display);
+  color: var(--color-brass-light);
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+.dashboard-user__avatar img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.dashboard-user__name {
+  display: block;
+  font-weight: 600;
+  color: var(--color-ivory);
+  font-size: var(--fs-sm);
+}
+
+.dashboard-user__email {
+  display: block;
+  font-size: 0.78rem;
+  color: var(--color-text-faint);
+}
+
+.dashboard-nav {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-1);
+}
+
+.dashboard-nav__link {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+  padding: 0.75rem 0.9rem;
+  border-radius: var(--radius-sm);
+  color: var(--color-text-muted);
+  font-size: var(--fs-sm);
+  transition: background var(--dur-fast) var(--ease-lux), color var(--dur-fast) var(--ease-lux);
+}
+
+.dashboard-nav__link:hover {
+  background: var(--color-glass);
+  color: var(--color-ivory);
+}
+
+.dashboard-nav__link.is-active {
+  background: var(--color-glass);
+  color: var(--color-brass-light);
+  border: 1px solid var(--color-border);
+}
+
+.dashboard-logout {
+  border-top: 1px solid var(--color-border-soft);
+  padding-top: var(--space-4);
+}
+
+.dashboard-content {
+  min-width: 0;
+}
+
+@media (max-width: 900px) {
+  .dashboard {
+    grid-template-columns: 1fr;
+  }
+  .dashboard-sidebar {
+    position: static;
+  }
+}

@@ -1,0 +1,10 @@
+.rating-stars {
+  display: inline-flex;
+  gap: 2px;
+  color: var(--color-text-faint);
+}
+
+.star--filled {
+  color: var(--color-brass);
+  fill: var(--color-brass);
+}

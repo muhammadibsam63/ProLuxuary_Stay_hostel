@@ -1,0 +1,73 @@
+:root {
+  /* ---- Color: Ink & Brass ---- */
+  --color-ink: #0a0b0d;
+  --color-ink-soft: #101318;
+  --color-surface: #15181e;
+  --color-surface-raised: #1b1f26;
+  --color-glass: rgba(255, 255, 255, 0.045);
+  --color-glass-border: rgba(255, 255, 255, 0.08);
+
+  --color-brass: #c9a227;
+  --color-brass-light: #e8d48a;
+  --color-brass-dim: #8a7020;
+
+  --color-ivory: #f4f1ea;
+  --color-ivory-dim: #d8d4c9;
+  --color-text: #eeece6;
+  --color-text-muted: #9aa0a8;
+  --color-text-faint: #676d76;
+
+  --color-border: rgba(201, 162, 39, 0.16);
+  --color-border-soft: rgba(255, 255, 255, 0.07);
+
+  --color-success: #6fae7c;
+  --color-error: #d5715f;
+
+  /* ---- Type ---- */
+  --font-display: "Fraunces", "Georgia", serif;
+  --font-body: "Manrope", "Segoe UI", sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
+
+  --fs-eyebrow: 0.72rem;
+  --fs-sm: 0.875rem;
+  --fs-base: 1rem;
+  --fs-lg: 1.125rem;
+  --fs-xl: 1.5rem;
+  --fs-2xl: 2rem;
+  --fs-3xl: 2.75rem;
+  --fs-4xl: 3.75rem;
+  --fs-5xl: 5rem;
+
+  /* ---- Spacing ---- */
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-5: 1.5rem;
+  --space-6: 2rem;
+  --space-8: 3rem;
+  --space-10: 4rem;
+  --space-12: 6rem;
+  --space-16: 8rem;
+
+  /* ---- Radius ---- */
+  --radius-sm: 6px;
+  --radius-md: 14px;
+  --radius-lg: 22px;
+  --radius-full: 999px;
+
+  /* ---- Shadow ---- */
+  --shadow-soft: 0 10px 40px rgba(0, 0, 0, 0.35);
+  --shadow-lift: 0 24px 60px rgba(0, 0, 0, 0.45);
+  --shadow-gold-glow: 0 0 0 1px rgba(201, 162, 39, 0.25), 0 20px 50px rgba(201, 162, 39, 0.08);
+
+  /* ---- Layout ---- */
+  --container-max: 1280px;
+  --header-h: 84px;
+
+  /* ---- Motion ---- */
+  --ease-lux: cubic-bezier(0.16, 1, 0.3, 1);
+  --dur-fast: 180ms;
+  --dur-med: 380ms;
+  --dur-slow: 640ms;
+}
