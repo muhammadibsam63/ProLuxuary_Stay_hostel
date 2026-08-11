@@ -44,7 +44,10 @@ export const hotels = [
         price: 980,
       },
     ],
-    coordinates: { lat: 36.3932, lng: 25.4615 },
+    coordinates: {
+      lat: 36.3932,
+      lng: 25.4615,
+    },
   },
 
   {
@@ -92,7 +95,10 @@ export const hotels = [
         price: 1150,
       },
     ],
-    coordinates: { lat: 35.0116, lng: 135.7681 },
+    coordinates: {
+      lat: 35.0116,
+      lng: 135.7681,
+    },
   },
 
   {
@@ -140,7 +146,10 @@ export const hotels = [
         price: 420,
       },
     ],
-    coordinates: { lat: 31.6295, lng: -7.9811 },
+    coordinates: {
+      lat: 31.6295,
+      lng: -7.9811,
+    },
   },
 
   {
@@ -188,7 +197,10 @@ export const hotels = [
         price: 890,
       },
     ],
-    coordinates: { lat: 51.1784, lng: -115.5708 },
+    coordinates: {
+      lat: 51.1784,
+      lng: -115.5708,
+    },
   },
 
   {
@@ -236,7 +248,10 @@ export const hotels = [
         price: 365,
       },
     ],
-    coordinates: { lat: 38.7139, lng: -9.1307 },
+    coordinates: {
+      lat: 38.7139,
+      lng: -9.1307,
+    },
   },
 
   {
@@ -284,7 +299,10 @@ export const hotels = [
         price: 610,
       },
     ],
-    coordinates: { lat: -8.5069, lng: 115.2625 },
+    coordinates: {
+      lat: -8.5069,
+      lng: 115.2625,
+    },
   },
 ];
 
@@ -393,5 +411,5 @@ export const stats = [
 ];
 
 export function getHotelById(id) {
-  return hotels.find((h) => h.id === id);
+  return hotels.find((hotel) => hotel.id === id);
 }
