@@ -1,4 +1,3 @@
-
 export const hotels = [
   {
     id: "azure-cliff-santorini",
@@ -371,10 +370,26 @@ export const testimonials = [
 ];
 
 export const stats = [
-  { label: "Curated Properties", value: 1240, suffix: "+" },
-  { label: "Cities Worldwide", value: 86, suffix: "" },
-  { label: "Guests Hosted", value: 58000, suffix: "+" },
-  { label: "Average Rating", value: 4.9, suffix: "/5" },
+  {
+    label: "Curated Properties",
+    value: 1240,
+    suffix: "+",
+  },
+  {
+    label: "Cities Worldwide",
+    value: 86,
+    suffix: "",
+  },
+  {
+    label: "Guests Hosted",
+    value: 58000,
+    suffix: "+",
+  },
+  {
+    label: "Average Rating",
+    value: 4.9,
+    suffix: "/5",
+  },
 ];
 
 export function getHotelById(id) {
