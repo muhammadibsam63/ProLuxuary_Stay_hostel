@@ -1,3 +1,4 @@
+
 export const hotels = [
   {
     id: "azure-cliff-santorini",
